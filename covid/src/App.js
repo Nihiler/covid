@@ -91,9 +91,9 @@ useEffect(() => {
           <CardContent>
             <h3>Total cases per country</h3>
             <Table countries={tableData}/>
-            
+           
             <h3>New cases (Worldwide)</h3>
-            <LineGraph/>
+            {/* <LineGraph/> */}
           </CardContent>
         </Card>
       
